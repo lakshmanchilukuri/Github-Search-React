@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const UserCard = ({username, avatar}) => {
   return (
-    <div className="card m-2  py-2 d-flex align-items-center" style={{width:"250px"}} >
+    // style={{width:"250px"}}
+    <div className="card m-2  py-2 text-center"  >
        <img src={avatar}  alt=''
         className='rounded-circle'
         style={{ width: '60px' }} ></img> 

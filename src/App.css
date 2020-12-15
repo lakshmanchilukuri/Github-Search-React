@@ -38,19 +38,25 @@
 } */
 
 /* 
-*{
+*
+body{
+  background-color: aquamarine;
+} */
+/* *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
 
-}
-body{
-  background-color: aquamarine;
 } */
+
 
 .spinner {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.card{
+  display: block;
 }

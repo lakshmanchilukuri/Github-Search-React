@@ -8,8 +8,11 @@ const Users = ({users}) => {
   return (
     <div className="row">{
       
+      
       users.map((user)=>(
+        <div className="col-sm-3">
         <UserCard key={user.login} username={user.login} avatar={user.avatar_url} />
+        </div>
       ))
      
     }
