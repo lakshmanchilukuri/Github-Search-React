@@ -60,7 +60,7 @@ const User = ({ getUser, getRepos, user, repos, match ,loading}) => {
           </div>
         </div>
       </div>
-      <div className="mt-2 d-flex justify-content-center ">
+      <div className="mt-2 text-center">
                <span className="badge badge-danger m-2 p-2">Followers : {followers}</span>
                <span className="badge badge-success m-2 p-2">Following : {following}</span>
                <span className="badge badge-warning m-2 p-2">Public_repos : {public_repos}</span>
