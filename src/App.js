@@ -10,11 +10,12 @@ import Clear from "./Components/layout/Clear"
 import Spinner from './Components/layout/Spinner';
 import About from './Components/pages/About';
 import NotFound from './Components/pages/NotFound';
+// import NotFound from '';
 import Loader from 'react-loader-spinner'
 
 function App() {
-  const githubClientId='e8c05da744f7b8e5e661';
-const githubClientSecret='67c376d361c7698c8d15baa098b22cedbb098440';
+  const githubClientId=process.env.REACT_APP_GITHUB_CLIENT_ID;
+const githubClientSecret=process.env.REACT_APP_GITHUB_CLIENT_SECRET;
   
 
  const [alert, setAlert] = useState(null);
